@@ -6,7 +6,7 @@ VNP46A4: https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/5000/VNP46A4/
 To download data for selected region we can either use bounding box feature offer on the website.
 Or we can select the tile based on the grid reference below 
 
-![GRIDREFERENCE!]("D:\EAGLE\INNO_LAB\GridReferenceBM_data.png")
+![GRIDREFERENCE!](https://github.com/jyotibiswas1708/MB1/issues/1#issuecomment-1531556380)
 
   
 Fig 1: The Suomi-NPP VIIRS linear latitude/longitude (or geographic) grid consists of 460 non-overlapping Land tiles which measure approximately 10°×10° region.
