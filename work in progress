@@ -1,0 +1,20 @@
+Data Archive for NASA Black Marble Data
+VNP46A1 : https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/5000/VNP46A1/
+VNP46A2 : https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/5000/VNP46A2/
+VNP46A3: https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/5000/VNP46A3/
+VNP46A4: https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/5000/VNP46A4/
+To download data for selected region we can either use bounding box feature offer on the website.
+Or we can select the tile based on the grid reference below 
+
+![GRIDREFERENCE!]("D:\EAGLE\INNO_LAB\GridReferenceBM_data.png")
+
+  
+Fig 1: The Suomi-NPP VIIRS linear latitude/longitude (or geographic) grid consists of 460 non-overlapping Land tiles which measure approximately 10°×10° region.
+The filenames follow a naming convention which gives useful information regarding the specific product. For example, the filename VNP46A1.A2015001.h08v05.001.2017012234657.h5 indicates: 
+(1) VNP46A1: Product Short Name; 
+(2) A2015001: Julian Date of Acquisition (A-YYYYDDD);
+(3) h08v05: Tile Identifier (horizontalXXverticalYY);
+(4) .001: Collection Version;
+(5) .2017012234657: Julian Date of Production (YYYYDDDHHMMSS); 
+(6) .h5: Data Format (HDF5).
+Tool to convert the HDF file to GeoTiff : https://blackmarble.gsfc.nasa.gov/Tools.html
